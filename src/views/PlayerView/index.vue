@@ -1,12 +1,15 @@
 <script setup lang="ts">
 
-import PlayerController from "./components/PlayerController.vue";
+import PlayerBar from "../../components/PlayerBar/index.vue";
+import Lyric from "./components/Lyric.vue";
+import SongInfo from "./components/SongInfo.vue";
 
 </script>
 <template>
     <div class="player-view">
-        <div class="player-view-mask"></div>
-        <player-controller></player-controller>
+<!--        <song-info></song-info>-->
+        <lyric></lyric>
+<!--        <player-bar></player-bar>-->
     </div>
 </template>
 <style scoped>
@@ -14,8 +17,10 @@ import PlayerController from "./components/PlayerController.vue";
 .player-view {
     width: 100vw;
     height: 100vh;
-    background: url("https://picsum.photos/1920/1080?image=15") no-repeat;
-    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
 }
 
 .player-view-mask {

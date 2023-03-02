@@ -1,3 +1,8 @@
+<script setup lang="ts">
+
+import { Howl } from 'howler';
+
+</script>
 <template>
     <div class="player-bar">
         <div class="player-bar-avatar"></div>

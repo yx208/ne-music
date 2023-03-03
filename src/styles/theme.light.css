@@ -1,7 +1,10 @@
 
 .theme-light {
-    --background-base: #fff;
+    --background-base: #f2f2f2;
     --font-color-base: #222;
     --primary-color: #3978f6;
+
     --progress-background: #ccc;
+
+    --lyric-highlight: #fff;
 }

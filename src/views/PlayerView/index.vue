@@ -9,7 +9,7 @@ import SongInfo from "./components/SongInfo.vue";
     <div class="player-view">
 <!--        <song-info></song-info>-->
         <lyric></lyric>
-<!--        <player-bar></player-bar>-->
+        <player-bar></player-bar>
     </div>
 </template>
 <style scoped>
